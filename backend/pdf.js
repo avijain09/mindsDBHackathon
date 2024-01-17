@@ -6,7 +6,7 @@
 //  text:{{text}}',
 //     max_tokens = 500,
 //     temperature = 0.3,
-//     api_key = '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';
+//     api_key = '<openai-api-key>';
 
 //     SELECT text, answer
 //     FROM openai_modelans
