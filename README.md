@@ -5,7 +5,7 @@ VirtuHire AI is a cutting-edge application designed to revolutionize the recruit
 
 ### WorkFlow
 - The workflow begins with recruiters accessing our web application, where they initiate the onboarding process by signing up. User details are seamlessly transmitted to a MongoDB database via a POST request.
-- After successful registration, recruiters gain access to the Job portal page for creating listings. Each job, assigned a unique ID, dynamically stores details in MongoDB through a POST request, generating an automated link.The provided code snippet illustrates the modal displaying the link and a copy button for recruiter convenience.
+- After successful registration, recruiters gain access to the Job portal page for creating listings. Each job, assigned a unique ID, dynamically stores details in MongoDB through a POST request, generating an automated link.
 - The link is dynamically generated based on the job ID and includes a copy button functionality.
 
 - The personalized gateway link is then dispatched to candidates via email.As candidates click on the provided link, they are prompted to input their details, which are promptly stored in the MongoDB database. The interface then displays a curated list of jobs posted by recruiters. When a candidate selects a specific job, the system prompts them to upload their resume, which is locally stored.
